@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CursoCompose</string>
+    <string name="title_activity_constraint_layout_exercise">ConstraintLayoutExercise</string>
 </resources>

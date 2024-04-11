@@ -13,6 +13,11 @@
         android:theme="@style/Theme.CursoCompose"
         tools:targetApi="31">
         <activity
+            android:name=".ui.theme.ConstraintLayoutExercise"
+            android:exported="false"
+            android:label="@string/title_activity_constraint_layout_exercise"
+            android:theme="@style/Theme.CursoCompose" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
