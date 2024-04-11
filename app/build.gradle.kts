@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.devdcruz.cursocompose"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.devdcruz.cursocompose"
