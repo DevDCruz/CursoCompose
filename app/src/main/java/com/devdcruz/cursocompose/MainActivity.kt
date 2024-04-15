@@ -98,23 +98,34 @@ fun MyColumn() {
 }
 
 @Composable
-fun MySpacerVertical(size : Int) {
-    Spacer(modifier = Modifier
-        .height(size.dp)
-        .background(Color.Black))
+fun MySpacerVertical(size: Int) {
+    Spacer(
+        modifier = Modifier
+            .height(size.dp)
+            .background(Color.Black)
+    )
 }
 
 @Composable
-fun MySpacerHorizontal(size : Int) {
-    Spacer(modifier = Modifier
-        .width(size.dp)
-        .background(color = Color.Black))
+fun MySpacerHorizontal(size: Int) {
+    Spacer(
+        modifier = Modifier
+            .width(size.dp)
+            .background(color = Color.Black)
+    )
+}
+
+@Composable
+fun MyTextsTets() {
+    Column(modifier = Modifier.fillMaxSize()) {
+        Text(text = "Formulario")
+    }
 }
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     CursoComposeTheme {
-        MyColumn()
+        MyTextsTets()
     }
 }
